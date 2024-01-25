@@ -1,4 +1,3 @@
-/*
 //IF
 const edad = Number(prompt("Dame tu edad"));
 
@@ -46,7 +45,6 @@ switch (dia) {
         console.log("Igualmente buen dia");
         break;
 }
-*/
 
 //OPERADOR TERNARIO
 const nota2 = parseInt(prompt("Nota del examen"));

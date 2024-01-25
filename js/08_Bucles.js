@@ -6,11 +6,16 @@ for (let i = 0; i < 11; i++) {
 }
 */
 
+/*
 //Cuenta atras
 for (let i = 10; i > -1; i--) {
     console.log(i);
 }
 console.log("Lanzando nave");
+*/
 
-const valorInicial = parseInt(prompt("Dame un número");
-)
+const valorInicial = parseInt(prompt("Dame un número"));
+for (let i = valorInicial; i >= 0; i--) {
+    console.log(i);
+}
+console.log("Fin de la cuenta atras " + valorInicial);
