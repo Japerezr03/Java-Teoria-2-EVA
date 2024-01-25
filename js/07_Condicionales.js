@@ -45,3 +45,15 @@ switch (dia) {
         console.log("Igualmente buen dia");
         break;
 }
+
+//OPERADOR TERNARIO
+const nota2 = parseInt(prompt("Nota del examen"));
+const literal = (nota2 >= 5) ? "HAS APROBADO" : "HAS SUSPENDIDO";
+console.log(literal);
+
+//es igual decir
+if (nota >= 5) {
+    literal = "HAS APROBADO"
+} else {
+    literal = "HAS SUSPENDIDO"
+}
