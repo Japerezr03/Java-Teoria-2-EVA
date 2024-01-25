@@ -11,3 +11,6 @@ for (let i = 10; i > -1; i--) {
     console.log(i);
 }
 console.log("Lanzando nave");
+
+const valorInicial = parseInt(prompt("Dame un número");
+)
