@@ -32,3 +32,16 @@ switch (nota) {
 }
 
 //Mensaje para cada día de la semana
+const dia = prompt("Dime el dia de la semana");
+switch (dia) {
+    case "L": case "M": case "X": case "J": case "V":
+        console.log("Ya queda menos para el finde")
+        break;
+    case "S": case "D":
+        console.log("Recuerda estudiar");
+        break;
+
+    default:
+        console.log("Igualmente buen dia");
+        break;
+}
