@@ -5,3 +5,9 @@ while (contador <= 10) {
     //Tenemos que hacer algo para que llegue a cumplirse la condicion
     contador++; //Contador = contador + 1
 }
+
+let cont = 1;
+do {
+    console.log("Con do-whil, valor del cont" + cont)
+    cont++ //Cuidado si no lo pongo creo un bucle
+} while (cont <= 3)
