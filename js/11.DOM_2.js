@@ -1,6 +1,20 @@
 //Cuando se cargue la pestaña
 window.addEventListener("load", inicial);
 window.addEventListener("load", establecerFecha);
+window.addEventListener("load",cambioGenero);
+
+function cambioGenero(params) {
+    const genero = document.getElementById ("genero");
+    if (genero !=null){
+        genero.addEventListener ("change",actualizarImagen);
+        //
+    }
+}
+
+function actualizarImagen(params) {
+    console.log ("Elemento que ha lanzado el evento", evento);
+    const seleccionado = evento.target.value;
+}
 
 function establecerFecha(params) {
 
@@ -10,7 +24,7 @@ function establecerFecha(params) {
     //2º Comprobar que exista el elemento
     if (parrafoFecha != null); {
 
-        //
+        //Ejecutar continuamente cada X tiempo
         setInterval(() => {
             let fechaActual = new Date();
             parrafoFecha.innerHTML = fechaActual.toLocaleDateString();
